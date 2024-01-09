@@ -1,0 +1,21 @@
+.project-section {
+  background-color: var(--bg-second);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 50px;
+  min-height: 90vh;
+  font-family: 'Merriweather', serif;
+}
+
+.project-section-item {
+  margin-bottom: 6px;
+}
+
+.project-section-img {
+  width: 100vw;
+  height: 40vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

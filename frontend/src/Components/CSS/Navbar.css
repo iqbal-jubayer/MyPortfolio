@@ -1,0 +1,59 @@
+.navbar-section {
+  background-color: var(--bg-prime);
+  height: 10vh;
+  font-family: 'Oswald', sans-serif;
+}
+
+.navbar {
+  background-color: var(--bg-prime);
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  align-items: center;
+  box-shadow: 0px 2px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-logo {
+  width: 40vw;
+  margin: 50px;
+}
+
+.navbar-logo h2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-control {
+  width: 60vw;
+  margin: 50px;
+}
+
+.navbar-control ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-control ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.navbar-control ul li a {
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-control ul li a:hover {
+  text-decoration: underline;
+  font-size: 23px;
+}
+
+
+.footer {
+  font-family: 'Oswald', sans-serif;
+  background-color: var(--bg-prime);
+  height: 8vh;
+  color: white;
+}
