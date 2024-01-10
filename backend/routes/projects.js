@@ -15,9 +15,9 @@ router.get('/getprojects',async(req,res)=>{
   const data = await Project.find({});
   data.forEach(e=>{
     try{
-      projectList[e.lang].push(e);
+      projectList[e.category].push(e);
     }catch{
-      projectList[e.lang] = [e];
+      projectList[e.category] = [e];
     }
   })
   res.send(projectList);

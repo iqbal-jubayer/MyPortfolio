@@ -29,6 +29,39 @@
   margin: 50px;
 }
 
+.burger {
+  width: 30px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 8px;
+  position: fixed;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  display: none;
+}
+
+.burger-active-1 {
+  transform: translateY(4px) rotate(45deg);
+}
+
+.burger-active-2 {
+  display: none;
+}
+
+.burger-active-3 {
+  transform: translateY(-4px) rotate(-45deg);
+}
+
+.burger>* {
+  border: 2px solid white;
+  border-radius: 6px;
+  margin: 2px;
+  transition: transform 0.3s;
+}
+
 .navbar-control ul {
   display: flex;
   justify-content: flex-end;
@@ -55,5 +88,11 @@
   font-family: 'Oswald', sans-serif;
   background-color: var(--bg-prime);
   height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p{
   color: white;
 }

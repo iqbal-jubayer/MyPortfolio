@@ -1,0 +1,36 @@
+.projects-card {
+  background-color: var(--bg-prime);
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px black;
+  margin: 7px;
+  padding: 6px;
+}
+
+.projects-card-item {
+  margin: 6px 0;
+}
+
+.projects-card-img{
+  display: flex;
+  align-items: center;
+  min-height: 200px;
+}
+
+.projects-card-item img {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 6px;
+}
+
+.projects-card-item .btn {
+  background-color: white;
+  color: black;
+}
+
+.projects-card-item .btn:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}

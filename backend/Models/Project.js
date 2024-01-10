@@ -4,7 +4,7 @@ const ProjectSchema = new Schema({
   imgUrl:String,
   title:String,
   desc:String,
-  lang:String,
+  category:String,
   date:{
     type:String,
     default:Date.now
